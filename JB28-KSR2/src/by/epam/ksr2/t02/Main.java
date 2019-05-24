@@ -6,22 +6,22 @@ public class Main {
 		Payment order1 = new Payment();
 		
 		
-		Good position1 = new Good("table", 45.5, "red", 4);
-		Good position2 = new Good("Chair", 13.8, "green", 1);
-		Good position3 = new Good("Chair", 13.8, "blue", 3);
-		Good position4 = new Good("Chair", 13.8, "red", 2);
-		Good position5 = new Good("Chair", 13.8, 1);
-		Good position6 = new Good("Eyewear", 186, 1);
-		Good position7 = new Good("Watches", 5, 1);
+		Good good1 = new Good("table", 45.5, "red", 4);
+		Good good2 = new Good("Chair", 13.8, "green", 1);
+		Good good3 = new Good("Chair", 13.8, "blue", 3);
+		Good good4 = new Good("Chair", 13.8, "red", 2);
+		Good good5 = new Good("Chair", 13.8, 1);
+		Good good6 = new Good("Eyewear", 186, 1);
+		Good good7 = new Good("Watches", 5, 1);
 		
-		order1.addToPayment(position1);
-		order1.addToPayment(position2);
-		order1.addToPayment(position3);
-		order1.addToPayment(position4);
-		order1.addToPayment(position5);
-		order1.addToPayment(position6);
-		order1.addToPayment(position7);
-		order1.removeFromPayment(position7);
+		order1.addToPayment(good1);
+		order1.addToPayment(good2);
+		order1.addToPayment(good3);
+		order1.addToPayment(good4);
+		order1.addToPayment(good5);
+		order1.addToPayment(good6);
+		order1.addToPayment(good7);
+		order1.removeFromPayment(good7);
 		
 		
 		

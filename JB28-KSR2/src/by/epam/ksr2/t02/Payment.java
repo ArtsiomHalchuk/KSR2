@@ -37,7 +37,7 @@ public class Payment {
 			goods[positionOrder]=good;
 			totalPrice += good.positionCost();
 			totalQuantity+= good.getQuantity();
-			System.out.println("Товар "+good.name+" успешно добавлен в корзину");
+			System.out.println("Товар "+good.name+" цвета "+good.color+ " в количестве "+good.quantity+" шт. успешно добавлен в корзину");
 			positionOrder++;
 		}
 	}

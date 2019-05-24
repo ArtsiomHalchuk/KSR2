@@ -19,7 +19,7 @@ public class Good {
 		setName(name);
 		setPrice (price);
 		setQuantity (quontity);
-		this.color="Random";
+		this.color="random";
 	}
 
 	public String getName() {
