@@ -55,13 +55,17 @@ public class Payment {
 				totalPrice -= goods[i].positionCost();
 				totalQuantity -= goods[i].getQuantity();
 				goods[i]=goods[tempPos];
-				goods[tempPos].clearPosition();
+				clearPosition(goods[tempPos]);
 				System.out.println("Товар "+good.name+" успешно удален из корзины"+i);
 				positionOrder--;
 				}
 			
 			}
 		}
+	}
+	
+	public void clearPosition(Good good) {
+		good = null;
 	}
 	
 }

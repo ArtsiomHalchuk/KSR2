@@ -59,13 +59,9 @@ public class Good {
 		return cost;
 	}
 	
-	public void clearPosition() {
-		name="";
-		color="";
-		price=0;
-		quantity=0;
-	}
+	
 
+	
 	@Override
 	public int hashCode() {
 		final int prime = 31;
